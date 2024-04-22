@@ -1,3 +1,4 @@
-+ Installed ESXi host on VMWare Workstation. Configured static IP address, DNS, and data stores.
-+ Configured Port Groups and NTP settings. Created new virtual machines and ISO directories.
-+	Attempted to install vCenter Server for centralized management of ESXi hosts and VMs. Failing due to missing DNS server in lab environment.
++ Installed ESXi host on VMWare Workstation. Configured static IPv4 address.
++ Boot to portal and navigate to default TCP/IP stack to rename host, input domain and  DNS server and search domain.
++ Configured NTP settings started DNS service. Setup and data stores and ISO directories.
++ Configured Port Groups (VLANs) and vSwitches. Created new virtual machines under corresponding port groups.
