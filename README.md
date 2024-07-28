@@ -1,4 +1,4 @@
-# ESXI 8 Deployment and VM provisioning.
+# ESXI 8 Deployment and VM provisioning
 
 + Installed ESXi host on VMWare Workstation. Configured static IPv4 address.
 + Boot to portal and navigate to default TCP/IP stack to rename host, input domain and  DNS server and search domain.
