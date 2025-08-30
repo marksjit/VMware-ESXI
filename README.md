@@ -1,8 +1,11 @@
 # ESXI 8 Deployment and VM provisioning
 
-+ Installed ESXi host on VMWare Workstation. Configured static IPv4 address.
-+ Boot to portal and navigate to default TCP/IP stack to rename host, input domain and  DNS server and search domain.
-+ Configured NTP settings and started NTP service.
-+ Setup data stores and ISO directories. Organized ISOs that will be used by clients.
-+ Configured Port Groups (VLANs) and vSwitches.
-+ Created new virtual machines under corresponding port groups. Tested out if images are working and booting up properly.
++ Deployed an ESXi 8 host on VMware Workstation, configuring static IPv4 addressing and updating host settings including domain, DNS, and search domains via the default TCP/IP stack.
+
++ Configured NTP settings and ensured time synchronization across the host.
+
++ Provisioned and organized datastores and ISO directories for client VM deployment.
+
++ Configured vSwitches and Port Groups (VLANs) to segment network traffic effectively.
+
++ Created and deployed virtual machines under the appropriate port groups, validating OS images and ensuring successful boot and functionality.
